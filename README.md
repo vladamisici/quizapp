@@ -7,7 +7,7 @@
 
 ## Structura Proiectului
 
-- **QuizApp/QuizTaker**: Aplicația client pentru utilizatori. Permite utilizatorilor să răspundă la întrebări din quizuri.
+- **QuizApp/WpfApp1 (Quiz Taker)**: Aplicația client pentru utilizatori. Permite utilizatorilor să răspundă la întrebări din quizuri.
   - `MainWindow.xaml` și `MainWindow.xaml.cs`: Interfața principală pentru utilizatori. Introduce numele de utilizator și așteaptă quizul.
   - `QuizWindow.xaml` și `QuizWindow.xaml.cs`: Interfața pentru quiz. Afișează întrebările și răspunsurile, calculează și afișează scorul.
   - `ViewModels/QuizViewModel.cs`: Logica de business pentru gestionarea întrebărilor, răspunsurilor și scorurilor utilizatorilor.
