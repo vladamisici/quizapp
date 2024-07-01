@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34526.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizTaker", "..\WpfApp1\WpfApp1\QuizTaker.csproj", "{BBBA72D6-432B-42DE-BD0A-8D705BED896E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "..\Server\Server\Server.csproj", "{D9752753-97FD-4F84-A7D4-CABC14359631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluator", "..\Evaluator\Evaluator\Evaluator.csproj", "{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BD2E74AC-5A6A-48EB-A666-6500743E4867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{00E8CA78-A53B-4E54-A67B-6281E270E872}"
+	ProjectSection(SolutionItems) = preProject
+		..\Evaluator\Evaluator\Models\Question.cs = ..\Evaluator\Evaluator\Models\Question.cs
+		..\Evaluator\Evaluator\Models\User.cs = ..\Evaluator\Evaluator\Models\User.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{445A56FB-0736-42EA-8F05-2FA3A93572A0}"
+	ProjectSection(SolutionItems) = preProject
+		..\WpfApp1\WpfApp1\Services\CommunicationService.cs = ..\WpfApp1\WpfApp1\Services\CommunicationService.cs
+		..\Evaluator\Evaluator\Services\QuizService.cs = ..\Evaluator\Evaluator\Services\QuizService.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MultiRun|Any CPU = MultiRun|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBBA72D6-432B-42DE-BD0A-8D705BED896E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBA72D6-432B-42DE-BD0A-8D705BED896E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBA72D6-432B-42DE-BD0A-8D705BED896E}.MultiRun|Any CPU.ActiveCfg = MultiRun|Any CPU
+		{BBBA72D6-432B-42DE-BD0A-8D705BED896E}.MultiRun|Any CPU.Build.0 = MultiRun|Any CPU
+		{BBBA72D6-432B-42DE-BD0A-8D705BED896E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBA72D6-432B-42DE-BD0A-8D705BED896E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9752753-97FD-4F84-A7D4-CABC14359631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9752753-97FD-4F84-A7D4-CABC14359631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9752753-97FD-4F84-A7D4-CABC14359631}.MultiRun|Any CPU.ActiveCfg = MultiRun|Any CPU
+		{D9752753-97FD-4F84-A7D4-CABC14359631}.MultiRun|Any CPU.Build.0 = MultiRun|Any CPU
+		{D9752753-97FD-4F84-A7D4-CABC14359631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9752753-97FD-4F84-A7D4-CABC14359631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}.MultiRun|Any CPU.ActiveCfg = MultiRun|Any CPU
+		{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}.MultiRun|Any CPU.Build.0 = MultiRun|Any CPU
+		{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2DF53B-8FE8-4D5A-8C16-7FED757619ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00E8CA78-A53B-4E54-A67B-6281E270E872} = {BD2E74AC-5A6A-48EB-A666-6500743E4867}
+		{445A56FB-0736-42EA-8F05-2FA3A93572A0} = {BD2E74AC-5A6A-48EB-A666-6500743E4867}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CB3DFEE-88CA-4E3F-A847-E3C6AC729576}
+	EndGlobalSection
+EndGlobal
