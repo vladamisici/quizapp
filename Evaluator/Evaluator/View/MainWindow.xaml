@@ -1,0 +1,32 @@
+﻿<Window x:Class="Evaluator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Evaluator"
+        mc:Ignorable="d"
+        Title="Evaluator" Height="600" Width="800"
+        WindowStyle="None" AllowsTransparency="True" Background="White">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DockPanel Background="LightGray" Height="30" VerticalAlignment="Top">
+            <Button Content="X" Width="30" Click="CloseButton_Click" HorizontalAlignment="Right"/>
+        </DockPanel>
+        <StackPanel Grid.Row="1" Margin="20">
+            <TextBlock Text="Evaluator Dashboard" FontSize="20" Margin="10"/>
+            <ListBox Name="UsersListBox" Margin="10" ItemsSource="{Binding Users}" DisplayMemberPath="Username" SelectionChanged="UsersListBox_SelectionChanged"/>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Button Name="CreateQuizButton" Content="Create New Quiz" Width="150" Click="CreateQuizButton_Click"/>
+                <Button Name="SendQuizButton" Content="Send Quiz" Width="150" Click="SendQuizButton_Click" Margin="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Name="QuizPanel" Visibility="Collapsed" Margin="10">
+                <TextBlock Text="Quiz Name:" FontSize="16" Margin="0,0,0,10"/>
+                <TextBox Name="QuizNameTextBox" Width="300" Margin="0,0,0,20"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
