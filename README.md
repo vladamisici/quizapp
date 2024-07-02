@@ -10,7 +10,7 @@
 - **QuizApp/WpfApp1 (Quiz Taker)**: Aplicația client pentru utilizatori. Permite utilizatorilor să răspundă la întrebări din quizuri.
   - `MainWindow.xaml` și `MainWindow.xaml.cs`: Interfața principală pentru utilizatori. Introduce numele de utilizator și așteaptă quizul.
   - `QuizWindow.xaml` și `QuizWindow.xaml.cs`: Interfața pentru quiz. Afișează întrebările și răspunsurile, calculează și afișează scorul.
-  - `ViewModels/QuizViewModel.cs`: Logica de business pentru gestionarea întrebărilor, răspunsurilor și scorurilor utilizatorilor.
+  - `ViewModels/QuizViewModel.cs`: Logica pentru gestionarea întrebărilor, răspunsurilor și scorurilor utilizatorilor.
   - `Services/CommunicationService.cs`: Gestionarea comunicării în timp real cu serverul prin WebSockets.
 
 - **QuizApp/Evaluator**: Aplicația server pentru evaluatori. Permite evaluatorilor să creeze și să trimită quizuri utilizatorilor, și să monitorizeze scorurile.
