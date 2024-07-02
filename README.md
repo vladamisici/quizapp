@@ -16,7 +16,7 @@
 - **QuizApp/Evaluator**: Aplicația server pentru evaluatori. Permite evaluatorilor să creeze și să trimită quizuri utilizatorilor, și să monitorizeze scorurile.
   - `MainWindow.xaml` și `MainWindow.xaml.cs`: Interfața principală pentru evaluatori. Listează utilizatorii și permite trimiterea quizurilor.
   - `Views/QuizCreationWindow.xaml` și `Views/QuizCreationWindow.xaml.cs`: Interfața pentru crearea quizurilor noi.
-  - `ViewModels/EvaluatorViewModel.cs`: Logica de business pentru gestionarea utilizatorilor și quizurilor.
+  - `ViewModels/EvaluatorViewModel.cs`: Logica pentru gestionarea utilizatorilor și quizurilor.
   - `Services/CommunicationService.cs`: Gestionarea comunicării în timp real cu clienții prin WebSockets.
 
 - **QuizApp/Server**: Serverul central care gestionează comunicarea dintre clienți și evaluatori.
